@@ -68,8 +68,8 @@ public class CheckoutActivity extends Activity {
 
   private TextView mGooglePayStatusText;
 
-  private ItemInfo mBikeItem = new ItemInfo("Simple Bike", 300 * 1000000, R.drawable.bike);
-  private long mShippingCost = 90 * 1000000;
+  private ItemInfo mBikeItem = new ItemInfo("Simple Bike", 30 * 1000000, R.drawable.bike);
+  private long mShippingCost = 9 * 1000000;
   /**
    * Initialize the Google Pay API on creation of the activity
    *
